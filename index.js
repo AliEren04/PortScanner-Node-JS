@@ -51,5 +51,5 @@ process.stdin.on("readable", function () {
   } else if (scanQuestion == 3) {
     checkAllLocalPorts();
   }else{
-    process.exit();
+    process.exit(1);
 });
