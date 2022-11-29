@@ -37,9 +37,9 @@ async function checkAllLocalPorts() {
 
 //making a question to ask user to select a scan type
 //Conditions to scan which port depends on user input
-console.log(
-  "Enter 1 to Scan common local ports, Enter 2 to Scan common remote ports but change url in index js to url you want to scan, Enter 3 to Scan All Local Ports Available"
-);
+console.log("Enter 1 to Scan common local ports");
+console.log("Enter 2 to Scan common remote ports but change url in index js to url you want to scan");
+console.log("Enter 3 to Scan All Local Ports Available");
 process.stdin.setEncoding("utf-8");
 let scanQuestion;
 process.stdin.on("readable", function () {
