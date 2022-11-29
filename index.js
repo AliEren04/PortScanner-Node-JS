@@ -50,5 +50,6 @@ process.stdin.on("readable", function () {
     scanRemoteCommon();
   } else if (scanQuestion == 3) {
     checkAllLocalPorts();
-  }
+  }else{
+    process.exit();
 });
