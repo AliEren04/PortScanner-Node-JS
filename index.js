@@ -52,4 +52,5 @@ process.stdin.on("readable", function () {
     checkAllLocalPorts();
   }else{
     process.exit(1);
+  }
 });
