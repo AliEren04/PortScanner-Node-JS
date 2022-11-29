@@ -1,0 +1,16 @@
+{
+  "name": "portscanner",
+  "version": "1.0.0",
+  "description": "A simple portscanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ALI EREN TABAK",
+  "license": "ISC",
+  "dependencies": {
+    "node-port-scanner": "^3.0.1",
+    "portscanner": "^2.2.0",
+    "prompt": "^1.3.0"
+  }
+}
