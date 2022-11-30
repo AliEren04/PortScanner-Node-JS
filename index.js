@@ -3,7 +3,6 @@ const portScanner = require("node-port-scanner");
 //Defining Prompt Package
 const prompt = require('prompt-sync')();
 
-const someSpace = " "; 
 
 //PortScanner Welcomer
 console.log(
@@ -26,7 +25,7 @@ const scanLocalCommon = () => {
 
 const scanRemoteCommon = () => {
 
-  let hostUrl = prompt('[Enter the host address you want to scan for example, www.github.com]' + someSpace)
+  let hostUrl = prompt('[Enter the host address you want to scan for example, www.github.com]' + ' '+  '=>' + ' ');
 
   portScanner(hostUrl, [21, 22, 23, 25, 80, 110, 123, 443])
     .then((results) => {
