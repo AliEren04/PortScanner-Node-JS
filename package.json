@@ -11,6 +11,7 @@
   "dependencies": {
     "node-port-scanner": "^3.0.1",
     "portscanner": "^2.2.0",
-    "prompt": "^1.3.0"
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0"
   }
 }
