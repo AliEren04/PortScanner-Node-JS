@@ -9,6 +9,9 @@
   "author": "ALI EREN TABAK",
   "license": "ISC",
   "dependencies": {
+    "command-line-args": "^5.2.1",
+    "find-port": "^3.0.0",
+    "isopen": "^1.3.0",
     "node-port-scanner": "^3.0.1",
     "portscanner": "^2.2.0",
     "prompt": "^1.3.0",
