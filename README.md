@@ -1,40 +1,44 @@
 # PortScanner-Node-JS
-A simple port scanner written with Node JS
 
-Usage: node index.js
+A CLI port scanner built with Node.js. Scans local and remote hosts for open ports across multiple modes.
 
+## Features
 
-## 🚀 About Me
- * I’m a self-taught backend developer with a strong passion for programming and building efficient, scalable systems. At 20 years old, I’m constantly learning and improving my skills in backend technologies, and I currently study Software Engineering  at Canterbury Christ Church University.
+- **Local common port scan** — checks 127.0.0.1 against common ports (21, 22, 23, 25, 80, 110, 123, 443)
+- **Remote common port scan** — same port list against any host/IP
+- **Full local port scan** — enumerates all open ports on localhost
+- **Custom range scan** — user-defined host + port range
 
-* When I’m not coding, I enjoy chess, watching anime, and occasionally gaming in my free time. These hobbies help me relax and fuel my creative thinking for my software projects.
+## Installation
 
+```bash
+git clone <repo-url>
+cd PortScanner-Node-JS
+npm install   
+```
 
+## Usage
 
-## 🛠 Core Backend Skills
-* Python (Flask)
-* PostgreSQL
-* MongoDB
-## 🛠 Additional Skills
-
-* Passionate about mobile development using Flutter for various applications.
-
-* Experience with web technologies for small to moderate projects.
-
-* Comfortable with full-stack development for self-initiated or side projects, creating well-rounded, functional solutions.
-
-
-## Current Projects And 
-👩‍💻 I’m currently focused on building my backend portfolio, while also developing my step_sync library for Flutter. This library helps count steps using raw sensor data and mathematical calculations. Alongside this, I’m expanding my portfolio with additional projects and handling small, local freelance jobs.
-
-🧠 I believe learning is a continuous journey. While I’ve gained proficiency in my core backend skills, I’m always pushing to expand my knowledge. In the future, I’m particularly excited to dive deeper into FastAPI and further strengthen my expertise in backend development.  
-
-👯‍♀️ I'm looking to collaborate on anything that interests me and suitable for my level to collaborate. 
-
-## 📫 How to reach me
-* Email: devalierentabak@outlook.com
-* Social Media: aliern046 (Instagram)
+```bash
+node index.js   
+```
 
 
+## Example
+```
+[Welcome to an Another Simple PortScanner Written With Node]
+[This port scanner have capability of scanning local common and remote common ports and also all ports available in local]
+[Enter 1 to Scan common local ports]
+[Enter 2 to Scan common remote ports]
+[Enter 3 to Scan All Local Ports Available]
+[Enter 4 to Define a IP adress and scan range of ports you selected in that IP address]
+```
 
+## Dependencies
+
+| Package | Purpose |
+|---------|---------|
+| [`node-port-scanner`](https://www.npmjs.com/package/node-port-scanner) | TCP port scanning |
+| [`isopen`](https://www.npmjs.com/package/isopen) | Port range checking |
+| [`prompt-sync`](https://www.npmjs.com/package/prompt-sync) | CLI user input |
 

@@ -6,7 +6,7 @@ const prompt = require("prompt-sync")();
 
 //PortScanner Welcomer
 console.log(
-  "[Welcome to an Another Simple PortScanner Written With Node and by AliEren04]"
+  "[Welcome to an Another Simple PortScanner Written With Node]"
 );
 console.log(
   "[This port scanner have capability of scanning local common and remote common ports and also all ports available in local]"

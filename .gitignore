@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Scan output / results
+results/
+output/
+*.scan
+*.nmap
+
+# Target lists (don't commit your target IPs/subnets)
+targets.txt
+*.targets
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/   
